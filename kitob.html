@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'tkan kunlar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Kitoblar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Yangi kitoblar</a></li>
+                            <li><a class="dropdown-item" href="#">Mashhur kitoblar</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Mualliflar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control form-control-sm me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid py-3">
+        <div class="row">
+            <aside class="col-md-3 col-lg-2 mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action small">Detektiv</a>
+                    <a href="#" class="list-group-item list-group-item-action small active">Klassika</a>
+                    <a href="#" class="list-group-item list-group-item-action small">Komediya</a>
+                    <a href="#" class="list-group-item list-group-item-action small">Romantika</a>
+                    <a href="#" class="list-group-item list-group-item-action small">Fantastika</a>
+                </div>
+            </aside>
+
+            <article class="col-md-9 col-lg-10 book-text">
+                <h1 class="mb-3">O'tkan kunlar</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam bibendum ipsum, vel fringilla enim pharetra vitae. Pellentesque consectetur ornare est, vel ultrices dolor ornare sit amet. Cras commodo ornare consectetur. Etiam nec venenatis neque. Morbi efficitur diam eget tempor cursus. Nullam eget ex ante. Aliquam id sollicitudin ligula.</p>
+                <p>Morbi a lorem vitae turpis iaculis pretium. Integer non orci nec dui vestibulum pharetra. Nulla facilisi. Donec accumsan est ex, a eleifend nulla facilisis tempus. Maecenas vel turpis viverra, pharetra metus at, luctus nunc. Nulla dictum accumsan ante. Cras nisi elit, blandit quis ullamcorper sed, bibendum at ante. Maecenas vitae tempus diam, sit amet feugiat erat. Sed pharetra, nulla ac euismod lobortis, sem ex rhoncus lacus, in venenatis tellus est sit amet lacus. Maecenas rhoncus vel ante eu fermentum. Ut libero ligula, porttitor at tellus a, feugiat viverra eros. Nunc pulvinar ipsum a augue placerat sollicitudin. Nam condimentum vestibulum elit. Nam finibus, nisl sit amet ultrices imperdiet, arcu felis vestibulum ipsum, quis mollis purus est vel sem.</p>
+                <p>Proin mollis quis risus id imperdiet. Nullam viverra ipsum in dui consequat aliquam. Nulla a dui mattis, scelerisque nisi et, bibendum mauris. Duis condimentum turpis nec metus tincidunt auctor. Etiam ligula lorem, iaculis nec nulla et, vestibulum vestibulum odio. Nam bibendum nunc in sapien ultrices elementum. Vestibulum nisl ex, molestie at urna at, ultrices varius orci. Etiam vulputate tellus ex, ac egestas ante maximus quis. Donec egestas est sit amet ullamcorper dictum. Fusce cursus turpis a massa tincidunt, id pulvinar mi sagittis. Nulla id odio tellus. In quis ex feugiat nunc vulputate auctor vel vitae risus.</p>
+                <p>Duis vitae sollicitudin orci. Suspendisse vestibulum sollicitudin leo quis efficitur. Cras sit amet porttitor nibh. Integer cursus cursus ipsum ut accumsan. Vivamus interdum eros ac elit efficitur, in egestas elit viverra. Cras bibendum justo quis blandit imperdiet. Etiam eu neque erat.</p>
+                <p>Nullam tempus nisl et elit dignissim hendrerit. Aenean fermentum, nulla vel efficitur finibus, urna elit lobortis mauris, sed iaculis turpis urna vel purus. Cras consectetur quam arcu, et consequat leo posuere ut. Nulla facilisi. Etiam pulvinar sagittis velit in gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec convallis bibendum commodo. Donec ac orci quis lorem tempor sodales.</p>
+                <p>Donec in egestas est. Suspendisse iaculis tempus tincidunt. Phasellus dignissim vel odio vel faucibus. Vestibulum mattis sed nulla non eleifend. Quisque ac felis sed libero vehicula aliquet. Nullam ac tortor eu nisl ultrices faucibus eget ac sapien. Sed scelerisque, orci a euismod gravida, arcu augue rhoncus ante, eu ultricies elit neque nec magna. Cras ultrices, quam finibus ornare imperdiet, neque tortor iaculis lorem, eu cursus dui quam ac ex.</p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container-fluid px-4">
+            <small>&copy; All rights reserved</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

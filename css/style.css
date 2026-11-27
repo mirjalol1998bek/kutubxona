@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.list-group-item.active {
+    background-color: #6610f2;
+    border-color: #6610f2;
+}
+
+.btn-read {
+    background-color: #6610f2;
+    border-color: #6610f2;
+    color: #fff;
+}
+
+.btn-read:hover {
+    background-color: #520dc2;
+    border-color: #520dc2;
+    color: #fff;
+}
+
+.book-card .card-img-top {
+    aspect-ratio: 224 / 268;
+    object-fit: cover;
+    object-position: top;
+}
+
+.book-card .card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pagination .page-link {
+    color: #6610f2;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #6610f2;
+    border-color: #6610f2;
+    color: #fff;
+}
+
+.book-text p {
+    text-align: justify;
+}
